@@ -3,7 +3,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\ReadSide\ReadSide.csproj" />
-    <ProjectReference Include="..\..\Src\Xer.Cqrs.EventStack\Xer.Cqrs.EventStack.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Xer.Cqrs.EventStack" Version="2.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
